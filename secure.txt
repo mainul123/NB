@@ -1,0 +1,479 @@
+Dec 31 21:03:29 localhost polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Dec 31 21:03:29 localhost polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Dec 31 21:03:29 localhost polkitd[785]: Finished loading, compiling and executing 2 rules
+Dec 31 21:03:29 localhost polkitd[785]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Dec 31 21:03:36 localhost sshd[1143]: Server listening on 0.0.0.0 port 22.
+Dec 31 21:03:36 localhost sshd[1143]: Server listening on :: port 22.
+Dec 31 21:03:43 localhost login: pam_unix(login:auth): check pass; user unknown
+Dec 31 21:03:43 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Dec 31 21:03:45 localhost login: FAILED LOGIN 1 FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Dec 31 21:03:51 localhost login: pam_unix(login:auth): check pass; user unknown
+Dec 31 21:03:51 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Dec 31 21:03:53 localhost login: FAILED LOGIN 2 FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Dec 31 21:04:03 localhost login: pam_unix(login:auth): check pass; user unknown
+Dec 31 21:04:05 localhost login: FAILED LOGIN SESSION FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Dec 31 21:04:05 localhost login: PAM 1 more authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Dec 31 21:04:15 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Dec 31 21:04:15 localhost login: ROOT LOGIN ON tty1
+Dec 31 21:18:27 localhost polkitd[785]: Registered Authentication Agent for unix-process:8509:90366 (system bus name :1.18 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 31 21:18:28 localhost polkitd[785]: Unregistered Authentication Agent for unix-process:8509:90366 (system bus name :1.18, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 01:31:42 localhost groupadd[21259]: group added to /etc/group: name=tss, GID=59
+Sep 11 01:31:42 localhost groupadd[21259]: group added to /etc/gshadow: name=tss
+Sep 11 01:31:42 localhost groupadd[21259]: new group: name=tss, GID=59
+Sep 11 01:31:42 localhost useradd[21264]: new user: name=tss, UID=59, GID=59, home=/dev/null, shell=/sbin/nologin
+Sep 11 01:31:43 localhost groupadd[21293]: group added to /etc/group: name=stapusr, GID=156
+Sep 11 01:31:43 localhost groupadd[21293]: group added to /etc/gshadow: name=stapusr
+Sep 11 01:31:43 localhost groupadd[21293]: new group: name=stapusr, GID=156
+Sep 11 01:31:43 localhost groupadd[21298]: group added to /etc/group: name=stapsys, GID=157
+Sep 11 01:31:43 localhost groupadd[21298]: group added to /etc/gshadow: name=stapsys
+Sep 11 01:31:43 localhost groupadd[21298]: new group: name=stapsys, GID=157
+Sep 11 01:31:43 localhost groupadd[21303]: group added to /etc/group: name=stapdev, GID=158
+Sep 11 01:31:43 localhost groupadd[21303]: group added to /etc/gshadow: name=stapdev
+Sep 11 01:31:43 localhost groupadd[21303]: new group: name=stapdev, GID=158
+Sep 11 01:32:55 localhost sshd[1143]: Received signal 15; terminating.
+Sep 11 01:32:55 localhost sshd[28642]: Server listening on 0.0.0.0 port 22.
+Sep 11 01:32:55 localhost sshd[28642]: Server listening on :: port 22.
+Sep 11 01:34:28 localhost groupadd[19282]: group added to /etc/group: name=apache, GID=48
+Sep 11 01:34:28 localhost groupadd[19282]: group added to /etc/gshadow: name=apache
+Sep 11 01:34:28 localhost groupadd[19282]: new group: name=apache, GID=48
+Sep 11 01:34:28 localhost useradd[19286]: new user: name=apache, UID=48, GID=48, home=/usr/share/httpd, shell=/sbin/nologin
+Sep 11 01:37:42 localhost polkitd[785]: Registered Authentication Agent for unix-process:19346:159902 (system bus name :1.49 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 01:37:42 localhost polkitd[785]: Unregistered Authentication Agent for unix-process:19346:159902 (system bus name :1.49, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 01:37:49 localhost polkitd[785]: Registered Authentication Agent for unix-process:19352:160552 (system bus name :1.50 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 01:37:49 localhost polkitd[785]: Unregistered Authentication Agent for unix-process:19352:160552 (system bus name :1.50, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 01:37:56 localhost polkitd[785]: Registered Authentication Agent for unix-process:19358:161247 (system bus name :1.51 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 01:37:56 localhost polkitd[785]: Unregistered Authentication Agent for unix-process:19358:161247 (system bus name :1.51, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 01:38:09 localhost polkitd[785]: Registered Authentication Agent for unix-process:19365:162584 (system bus name :1.52 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 01:38:09 localhost polkitd[785]: Unregistered Authentication Agent for unix-process:19365:162584 (system bus name :1.52, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 01:38:16 localhost polkitd[785]: Registered Authentication Agent for unix-process:19371:163282 (system bus name :1.53 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 01:38:16 localhost polkitd[785]: Unregistered Authentication Agent for unix-process:19371:163282 (system bus name :1.53, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 01:38:44 localhost polkitd[785]: Registered Authentication Agent for unix-process:19383:166130 (system bus name :1.54 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 01:38:44 localhost polkitd[785]: Unregistered Authentication Agent for unix-process:19383:166130 (system bus name :1.54, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 01:39:57 localhost groupadd[19673]: group added to /etc/group: name=tomcat, GID=53
+Sep 11 01:39:57 localhost groupadd[19673]: group added to /etc/gshadow: name=tomcat
+Sep 11 01:39:57 localhost groupadd[19673]: new group: name=tomcat, GID=53
+Sep 11 01:39:57 localhost useradd[19679]: new user: name=tomcat, UID=53, GID=53, home=/usr/share/tomcat, shell=/sbin/nologin
+Sep 11 01:40:29 localhost groupadd[19777]: group added to /etc/group: name=mysql, GID=27
+Sep 11 01:40:29 localhost groupadd[19777]: group added to /etc/gshadow: name=mysql
+Sep 11 01:40:29 localhost groupadd[19777]: new group: name=mysql, GID=27
+Sep 11 01:40:29 localhost useradd[19781]: new user: name=mysql, UID=27, GID=27, home=/var/lib/mysql, shell=/sbin/nologin
+Sep 11 01:50:39 localhost groupadd[21424]: group added to /etc/group: name=cgred, GID=995
+Sep 11 01:50:39 localhost groupadd[21424]: group added to /etc/gshadow: name=cgred
+Sep 11 01:50:39 localhost groupadd[21424]: new group: name=cgred, GID=995
+Sep 11 01:50:39 localhost groupadd[21431]: group added to /etc/group: name=printadmin, GID=994
+Sep 11 01:50:39 localhost groupadd[21431]: group added to /etc/gshadow: name=printadmin
+Sep 11 01:50:39 localhost groupadd[21431]: new group: name=printadmin, GID=994
+Sep 11 01:50:44 localhost groupadd[21491]: group added to /etc/group: name=rpc, GID=32
+Sep 11 01:50:44 localhost groupadd[21491]: group added to /etc/gshadow: name=rpc
+Sep 11 01:50:44 localhost groupadd[21491]: new group: name=rpc, GID=32
+Sep 11 01:50:44 localhost useradd[21498]: new user: name=rpc, UID=32, GID=32, home=/var/lib/rpcbind, shell=/sbin/nologin
+Sep 11 01:50:45 localhost groupadd[21578]: group added to /etc/group: name=gluster, GID=993
+Sep 11 01:50:45 localhost groupadd[21578]: group added to /etc/gshadow: name=gluster
+Sep 11 01:50:45 localhost groupadd[21578]: new group: name=gluster, GID=993
+Sep 11 01:50:45 localhost useradd[21583]: new user: name=gluster, UID=997, GID=993, home=/run/gluster, shell=/sbin/nologin
+Sep 11 01:50:56 mainul groupadd[21661]: group added to /etc/group: name=dip, GID=40
+Sep 11 01:50:56 mainul groupadd[21661]: group added to /etc/gshadow: name=dip
+Sep 11 01:50:56 mainul groupadd[21661]: new group: name=dip, GID=40
+Sep 11 01:50:57 mainul groupadd[21690]: group added to /etc/group: name=libstoragemgmt, GID=992
+Sep 11 01:50:57 mainul groupadd[21690]: group added to /etc/gshadow: name=libstoragemgmt
+Sep 11 01:50:57 mainul groupadd[21690]: new group: name=libstoragemgmt, GID=992
+Sep 11 01:50:57 mainul useradd[21695]: new user: name=libstoragemgmt, UID=996, GID=992, home=/var/run/lsm, shell=/sbin/nologin
+Sep 11 01:51:01 mainul groupadd[21764]: group added to /etc/group: name=kvm, GID=36
+Sep 11 01:51:01 mainul groupadd[21764]: group added to /etc/gshadow: name=kvm
+Sep 11 01:51:01 mainul groupadd[21764]: new group: name=kvm, GID=36
+Sep 11 01:51:01 mainul groupadd[21769]: group added to /etc/group: name=qemu, GID=107
+Sep 11 01:51:01 mainul groupadd[21769]: group added to /etc/gshadow: name=qemu
+Sep 11 01:51:01 mainul groupadd[21769]: new group: name=qemu, GID=107
+Sep 11 01:51:01 mainul useradd[21774]: new user: name=qemu, UID=107, GID=107, home=/, shell=/sbin/nologin
+Sep 11 01:51:01 mainul useradd[21774]: add 'qemu' to group 'kvm'
+Sep 11 01:51:01 mainul useradd[21774]: add 'qemu' to shadow group 'kvm'
+Sep 11 01:51:06 mainul polkitd[785]: Reloading rules
+Sep 11 01:51:06 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:51:06 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:51:06 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:51:06 mainul polkitd[785]: Finished loading, compiling and executing 3 rules
+Sep 11 01:51:06 mainul polkitd[785]: Reloading rules
+Sep 11 01:51:06 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:51:06 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:51:06 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:51:06 mainul polkitd[785]: Finished loading, compiling and executing 3 rules
+Sep 11 01:51:07 mainul groupadd[21893]: group added to /etc/group: name=usbmuxd, GID=113
+Sep 11 01:51:07 mainul groupadd[21893]: group added to /etc/gshadow: name=usbmuxd
+Sep 11 01:51:07 mainul groupadd[21893]: new group: name=usbmuxd, GID=113
+Sep 11 01:51:07 mainul useradd[21898]: new user: name=usbmuxd, UID=113, GID=113, home=/, shell=/sbin/nologin
+Sep 11 01:51:14 mainul groupadd[22012]: group added to /etc/group: name=geoclue, GID=991
+Sep 11 01:51:14 mainul groupadd[22012]: group added to /etc/gshadow: name=geoclue
+Sep 11 01:51:14 mainul groupadd[22012]: new group: name=geoclue, GID=991
+Sep 11 01:51:14 mainul useradd[22017]: new user: name=geoclue, UID=995, GID=991, home=/var/lib/geoclue, shell=/sbin/nologin
+Sep 11 01:51:26 mainul groupadd[22213]: group added to /etc/group: name=ntp, GID=38
+Sep 11 01:51:26 mainul groupadd[22213]: group added to /etc/gshadow: name=ntp
+Sep 11 01:51:26 mainul groupadd[22213]: new group: name=ntp, GID=38
+Sep 11 01:51:26 mainul useradd[22217]: new user: name=ntp, UID=38, GID=38, home=/etc/ntp, shell=/sbin/nologin
+Sep 11 01:51:29 mainul groupadd[22286]: group added to /etc/group: name=abrt, GID=173
+Sep 11 01:51:29 mainul groupadd[22286]: group added to /etc/gshadow: name=abrt
+Sep 11 01:51:29 mainul groupadd[22286]: new group: name=abrt, GID=173
+Sep 11 01:51:29 mainul useradd[22291]: new user: name=abrt, UID=173, GID=173, home=/etc/abrt, shell=/sbin/nologin
+Sep 11 01:51:30 mainul groupadd[22392]: group added to /etc/group: name=rtkit, GID=172
+Sep 11 01:51:30 mainul groupadd[22392]: group added to /etc/gshadow: name=rtkit
+Sep 11 01:51:30 mainul groupadd[22392]: new group: name=rtkit, GID=172
+Sep 11 01:51:30 mainul useradd[22397]: new user: name=rtkit, UID=172, GID=172, home=/proc, shell=/sbin/nologin
+Sep 11 01:51:30 mainul groupadd[22420]: group added to /etc/group: name=pulse-access, GID=990
+Sep 11 01:51:30 mainul groupadd[22420]: group added to /etc/gshadow: name=pulse-access
+Sep 11 01:51:30 mainul groupadd[22420]: new group: name=pulse-access, GID=990
+Sep 11 01:51:30 mainul groupadd[22425]: group added to /etc/group: name=pulse-rt, GID=989
+Sep 11 01:51:30 mainul groupadd[22425]: group added to /etc/gshadow: name=pulse-rt
+Sep 11 01:51:30 mainul groupadd[22425]: new group: name=pulse-rt, GID=989
+Sep 11 01:51:30 mainul groupadd[22430]: group added to /etc/group: name=pulse, GID=171
+Sep 11 01:51:30 mainul groupadd[22430]: group added to /etc/gshadow: name=pulse
+Sep 11 01:51:30 mainul groupadd[22430]: new group: name=pulse, GID=171
+Sep 11 01:51:30 mainul useradd[22436]: new user: name=pulse, UID=171, GID=171, home=/var/run/pulse, shell=/sbin/nologin
+Sep 11 01:51:33 mainul groupadd[22482]: group added to /etc/group: name=colord, GID=988
+Sep 11 01:51:33 mainul groupadd[22482]: group added to /etc/gshadow: name=colord
+Sep 11 01:51:33 mainul groupadd[22482]: new group: name=colord, GID=988
+Sep 11 01:51:33 mainul useradd[22487]: new user: name=colord, UID=994, GID=988, home=/var/lib/colord, shell=/sbin/nologin
+Sep 11 01:51:34 mainul polkitd[785]: Reloading rules
+Sep 11 01:51:34 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:51:34 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:51:34 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:51:34 mainul polkitd[785]: Finished loading, compiling and executing 4 rules
+Sep 11 01:51:34 mainul polkitd[785]: Reloading rules
+Sep 11 01:51:34 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:51:34 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:51:34 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:51:34 mainul polkitd[785]: Finished loading, compiling and executing 4 rules
+Sep 11 01:52:04 mainul groupadd[22749]: group added to /etc/group: name=unbound, GID=987
+Sep 11 01:52:04 mainul groupadd[22749]: group added to /etc/gshadow: name=unbound
+Sep 11 01:52:04 mainul groupadd[22749]: new group: name=unbound, GID=987
+Sep 11 01:52:04 mainul useradd[22754]: new user: name=unbound, UID=993, GID=987, home=/etc/unbound, shell=/sbin/nologin
+Sep 11 01:52:04 mainul runuser: pam_unix(runuser:session): session opened for user unbound by (uid=0)
+Sep 11 01:52:05 mainul runuser: pam_unix(runuser:session): session closed for user unbound
+Sep 11 01:52:06 mainul groupadd[22802]: group added to /etc/group: name=saned, GID=986
+Sep 11 01:52:06 mainul groupadd[22802]: group added to /etc/gshadow: name=saned
+Sep 11 01:52:06 mainul groupadd[22802]: new group: name=saned, GID=986
+Sep 11 01:52:06 mainul useradd[22807]: new user: name=saned, UID=992, GID=986, home=/usr/share/sane, shell=/sbin/nologin
+Sep 11 01:52:11 mainul groupadd[22846]: group added to /etc/group: name=saslauth, GID=76
+Sep 11 01:52:11 mainul groupadd[22846]: group added to /etc/gshadow: name=saslauth
+Sep 11 01:52:11 mainul groupadd[22846]: new group: name=saslauth, GID=76
+Sep 11 01:52:11 mainul useradd[22851]: new user: name=saslauth, UID=991, GID=76, home=/run/saslauthd, shell=/sbin/nologin
+Sep 11 01:52:11 mainul groupadd[22874]: group added to /etc/group: name=libvirt, GID=985
+Sep 11 01:52:11 mainul groupadd[22874]: group added to /etc/gshadow: name=libvirt
+Sep 11 01:52:11 mainul groupadd[22874]: new group: name=libvirt, GID=985
+Sep 11 01:52:12 mainul polkitd[785]: Reloading rules
+Sep 11 01:52:12 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:52:12 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:52:12 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:52:12 mainul polkitd[785]: Finished loading, compiling and executing 5 rules
+Sep 11 01:52:12 mainul polkitd[785]: Reloading rules
+Sep 11 01:52:12 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:52:12 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:52:12 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:52:12 mainul polkitd[785]: Finished loading, compiling and executing 5 rules
+Sep 11 01:52:13 mainul groupadd[22930]: group added to /etc/group: name=setroubleshoot, GID=984
+Sep 11 01:52:13 mainul groupadd[22930]: group added to /etc/gshadow: name=setroubleshoot
+Sep 11 01:52:13 mainul groupadd[22930]: new group: name=setroubleshoot, GID=984
+Sep 11 01:52:13 mainul useradd[22935]: new user: name=setroubleshoot, UID=990, GID=984, home=/var/lib/setroubleshoot, shell=/sbin/nologin
+Sep 11 01:52:27 mainul polkitd[785]: Reloading rules
+Sep 11 01:52:27 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:52:27 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:52:27 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:52:27 mainul polkitd[785]: Finished loading, compiling and executing 6 rules
+Sep 11 01:52:27 mainul polkitd[785]: Reloading rules
+Sep 11 01:52:27 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:52:27 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:52:27 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:52:27 mainul polkitd[785]: Finished loading, compiling and executing 6 rules
+Sep 11 01:52:28 mainul polkitd[785]: Reloading rules
+Sep 11 01:52:28 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:52:28 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:52:28 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:52:28 mainul polkitd[785]: Finished loading, compiling and executing 7 rules
+Sep 11 01:52:28 mainul polkitd[785]: Reloading rules
+Sep 11 01:52:28 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:52:28 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:52:28 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:52:28 mainul polkitd[785]: Finished loading, compiling and executing 7 rules
+Sep 11 01:52:29 mainul polkitd[785]: Reloading rules
+Sep 11 01:52:29 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:52:29 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:52:29 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:52:29 mainul polkitd[785]: Finished loading, compiling and executing 8 rules
+Sep 11 01:52:29 mainul polkitd[785]: Reloading rules
+Sep 11 01:52:29 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:52:29 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:52:29 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:52:29 mainul polkitd[785]: Finished loading, compiling and executing 8 rules
+Sep 11 01:52:33 mainul groupadd[23202]: group added to /etc/group: name=radvd, GID=75
+Sep 11 01:52:33 mainul groupadd[23202]: group added to /etc/gshadow: name=radvd
+Sep 11 01:52:33 mainul groupadd[23202]: new group: name=radvd, GID=75
+Sep 11 01:52:33 mainul useradd[23207]: new user: name=radvd, UID=75, GID=75, home=/, shell=/sbin/nologin
+Sep 11 01:52:36 mainul groupadd[23260]: group added to /etc/group: name=sssd, GID=983
+Sep 11 01:52:36 mainul groupadd[23260]: group added to /etc/gshadow: name=sssd
+Sep 11 01:52:36 mainul groupadd[23260]: new group: name=sssd, GID=983
+Sep 11 01:52:37 mainul useradd[23265]: new user: name=sssd, UID=989, GID=983, home=/, shell=/sbin/nologin
+Sep 11 01:52:38 mainul groupadd[23425]: group added to /etc/group: name=rpcuser, GID=29
+Sep 11 01:52:38 mainul groupadd[23425]: group added to /etc/gshadow: name=rpcuser
+Sep 11 01:52:38 mainul groupadd[23425]: new group: name=rpcuser, GID=29
+Sep 11 01:52:38 mainul useradd[23432]: new user: name=rpcuser, UID=29, GID=29, home=/var/lib/nfs, shell=/sbin/nologin
+Sep 11 01:52:38 mainul groupadd[23440]: group added to /etc/group: name=nfsnobody, GID=65534
+Sep 11 01:52:38 mainul groupadd[23440]: group added to /etc/gshadow: name=nfsnobody
+Sep 11 01:52:38 mainul groupadd[23440]: new group: name=nfsnobody, GID=65534
+Sep 11 01:52:38 mainul useradd[23447]: new user: name=nfsnobody, UID=65534, GID=65534, home=/var/lib/nfs, shell=/sbin/nologin
+Sep 11 01:52:43 mainul polkitd[785]: Reloading rules
+Sep 11 01:52:43 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:52:43 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:52:43 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:52:43 mainul polkitd[785]: Finished loading, compiling and executing 9 rules
+Sep 11 01:52:43 mainul polkitd[785]: Reloading rules
+Sep 11 01:52:43 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:52:43 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:52:43 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:52:43 mainul polkitd[785]: Finished loading, compiling and executing 9 rules
+Sep 11 01:52:45 mainul useradd[23532]: new group: name=gdm, GID=42
+Sep 11 01:52:45 mainul useradd[23532]: new user: name=gdm, UID=42, GID=42, home=/var/lib/gdm, shell=/sbin/nologin
+Sep 11 01:52:51 mainul useradd[23653]: new group: name=gnome-initial-setup, GID=982
+Sep 11 01:52:51 mainul useradd[23653]: new user: name=gnome-initial-setup, UID=988, GID=982, home=/run/gnome-initial-setup/, shell=/sbin/nologin
+Sep 11 01:52:51 mainul polkitd[785]: Reloading rules
+Sep 11 01:52:51 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:52:51 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:52:51 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:52:51 mainul polkitd[785]: Finished loading, compiling and executing 10 rules
+Sep 11 01:52:51 mainul polkitd[785]: Reloading rules
+Sep 11 01:52:51 mainul polkitd[785]: Collecting garbage unconditionally...
+Sep 11 01:52:51 mainul polkitd[785]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 01:52:52 mainul polkitd[785]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 01:52:52 mainul polkitd[785]: Finished loading, compiling and executing 10 rules
+Sep 11 01:53:38 mainul groupadd[23936]: group added to /etc/group: name=slocate, GID=21
+Sep 11 01:53:38 mainul groupadd[23936]: group added to /etc/gshadow: name=slocate
+Sep 11 01:53:38 mainul groupadd[23936]: new group: name=slocate, GID=21
+Sep 11 01:53:39 mainul groupadd[23946]: group added to /etc/group: name=tcpdump, GID=72
+Sep 11 01:53:39 mainul groupadd[23946]: group added to /etc/gshadow: name=tcpdump
+Sep 11 01:53:39 mainul groupadd[23946]: new group: name=tcpdump, GID=72
+Sep 11 01:53:39 mainul useradd[23951]: new user: name=tcpdump, UID=72, GID=72, home=/, shell=/sbin/nologin
+Sep 11 01:53:48 mainul groupadd[24171]: group added to /etc/group: name=avahi, GID=70
+Sep 11 01:53:48 mainul groupadd[24171]: group added to /etc/gshadow: name=avahi
+Sep 11 01:53:48 mainul groupadd[24171]: new group: name=avahi, GID=70
+Sep 11 01:53:48 mainul useradd[24176]: new user: name=avahi, UID=70, GID=70, home=/var/run/avahi-daemon, shell=/sbin/nologin
+Sep 11 02:00:47 mainul polkitd[785]: Registered Authentication Agent for unix-process:18664:298411 (system bus name :1.65 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 02:00:47 mainul polkitd[785]: Unregistered Authentication Agent for unix-process:18664:298411 (system bus name :1.65, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 02:00:54 mainul polkitd[785]: Registered Authentication Agent for unix-process:18686:299052 (system bus name :1.66 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 02:01:23 mainul polkitd[852]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 02:01:23 mainul polkitd[852]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 02:01:23 mainul polkitd[852]: Finished loading, compiling and executing 10 rules
+Sep 11 02:01:23 mainul polkitd[852]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 11 02:01:31 mainul sshd[1402]: Server listening on 0.0.0.0 port 22.
+Sep 11 02:01:31 mainul sshd[1402]: Server listening on :: port 22.
+Sep 11 02:01:32 mainul gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gnome-initial-setup by (uid=0)
+Sep 11 02:03:38 mainul accounts-daemon: request by system-bus-name::1.79 [/usr/libexec/gnome-initial-setup pid:3310 uid:988]: create user 'mainulnishan'
+Sep 11 02:03:38 mainul useradd[9303]: new group: name=mainulnishan, GID=1000
+Sep 11 02:03:38 mainul useradd[9303]: new user: name=mainulnishan, UID=1000, GID=1000, home=/home/mainulnishan, shell=/bin/bash
+Sep 11 02:03:38 mainul useradd[9303]: add 'mainulnishan' to group 'wheel'
+Sep 11 02:03:38 mainul useradd[9303]: add 'mainulnishan' to shadow group 'wheel'
+Sep 11 02:03:38 mainul accounts-daemon: request by system-bus-name::1.79 [/usr/libexec/gnome-initial-setup pid:3310 uid:988]: set password and hint of user 'mainulnishan' (1000)
+Sep 11 02:03:38 mainul usermod[9309]: change user 'mainulnishan' password
+Sep 11 02:03:39 mainul gdm-password]: pam_unix(gdm-password:session): session opened for user mainulnishan by (uid=0)
+Sep 11 02:03:39 mainul gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gnome-initial-setup
+Sep 11 02:03:41 mainul polkitd[852]: Registered Authentication Agent for unix-session:1 (system bus name :1.92 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 02:06:55 mainul sudo: mainulnishan : TTY=pts/0 ; PWD=/home/mainulnishan ; USER=root ; COMMAND=/bin/yum install gnome-tweaks
+Sep 11 02:06:55 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 11 02:07:01 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 11 02:07:08 mainul unix_chkpwd[11748]: password check failed for user (root)
+Sep 11 02:07:08 mainul su: pam_unix(su:auth): authentication failure; logname=mainulnishan uid=1000 euid=0 tty=pts/0 ruser=mainulnishan rhost=  user=root
+Sep 11 02:07:08 mainul su: pam_succeed_if(su:auth): requirement "uid >= 1000" not met by user "root"
+Sep 11 02:07:14 mainul su: pam_unix(su:session): session opened for user root by mainulnishan(uid=1000)
+Sep 11 02:08:14 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 11 02:08:14 mainul pkexec[11982]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 3900]
+Sep 11 02:08:15 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 11 02:08:15 mainul pkexec[11988]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 3825]
+Sep 11 02:08:15 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 11 02:08:15 mainul pkexec[11994]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 3675]
+Sep 11 02:08:15 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 11 02:08:15 mainul pkexec[12000]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 3450]
+Sep 11 02:08:15 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 11 02:08:15 mainul pkexec[12006]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 3000]
+Sep 11 02:08:15 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 11 02:08:15 mainul pkexec[12012]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 2175]
+Sep 11 02:08:15 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 11 02:08:15 mainul pkexec[12018]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 1950]
+Sep 11 02:08:15 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 11 02:08:15 mainul pkexec[12024]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 1725]
+Sep 11 02:08:15 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 11 02:08:15 mainul pkexec[12030]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 1575]
+Sep 11 02:08:15 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 11 02:08:15 mainul pkexec[12036]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 1425]
+Sep 11 02:08:16 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 11 02:08:16 mainul pkexec[12042]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 1350]
+Sep 11 02:09:06 mainul polkitd[852]: Operator of unix-session:1 successfully authenticated as unix-user:mainulnishan to gain ONE-SHOT authorization for action org.freedesktop.packagekit.system-trust-signing-key for system-bus-name::1.208 [gpk-update-viewer] (owned by unix-user:mainulnishan)
+Sep 11 02:11:01 mainul sudo:    root : TTY=pts/0 ; PWD=/home/mainulnishan ; USER=root ; COMMAND=/bin/yum install tlp -tlp-rdw
+Sep 11 02:11:01 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 11 02:11:01 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 11 02:11:20 mainul sudo:    root : TTY=pts/0 ; PWD=/home/mainulnishan ; USER=root ; COMMAND=/bin/yum install tlp tlp-rdw
+Sep 11 02:11:20 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 11 02:11:39 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 11 13:53:10 mainul polkitd[899]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 13:53:10 mainul polkitd[899]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 13:53:10 mainul polkitd[899]: Finished loading, compiling and executing 10 rules
+Sep 11 13:53:10 mainul polkitd[899]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 11 13:53:17 mainul sshd[1378]: Server listening on 0.0.0.0 port 22.
+Sep 11 13:53:18 mainul sshd[1378]: Server listening on :: port 22.
+Sep 11 13:53:21 mainul gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Sep 11 13:53:23 mainul polkitd[899]: Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 13:53:41 mainul gdm-password]: pam_unix(gdm-password:session): session opened for user mainulnishan by (uid=0)
+Sep 11 13:53:44 mainul gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Sep 11 13:53:44 mainul polkitd[899]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.41, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 13:53:47 mainul polkitd[899]: Registered Authentication Agent for unix-session:1 (system bus name :1.72 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 13:58:05 mainul sudo: mainulnishan : TTY=pts/0 ; PWD=/home/mainulnishan ; USER=root ; COMMAND=/bin/yum install git
+Sep 11 13:58:05 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 11 13:58:16 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 11 14:02:47 mainul sudo: mainulnishan : TTY=pts/0 ; PWD=/home/mainulnishan ; USER=root ; COMMAND=/bin/yum groupinstall Development Tools
+Sep 11 14:02:47 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 11 14:03:08 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 11 14:03:33 mainul sudo: mainulnishan : TTY=pts/0 ; PWD=/home/mainulnishan ; USER=root ; COMMAND=/bin/yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel
+Sep 11 14:03:33 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 11 14:04:19 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 11 14:09:40 mainul sudo: mainulnishan : TTY=pts/0 ; PWD=/home/mainulnishan/git-2.10.1 ; USER=root ; COMMAND=/bin/tail -f /var/log/messages
+Sep 11 14:09:40 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 11 14:10:00 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 11 14:10:14 mainul unix_chkpwd[10468]: password check failed for user (root)
+Sep 11 14:10:14 mainul su: pam_unix(su:auth): authentication failure; logname=mainulnishan uid=1000 euid=0 tty=pts/0 ruser=mainulnishan rhost=  user=root
+Sep 11 14:10:14 mainul su: pam_succeed_if(su:auth): requirement "uid >= 1000" not met by user "root"
+Sep 11 14:10:22 mainul unix_chkpwd[10477]: password check failed for user (root)
+Sep 11 14:10:22 mainul su: pam_unix(su:auth): authentication failure; logname=mainulnishan uid=1000 euid=0 tty=pts/0 ruser=mainulnishan rhost=  user=root
+Sep 11 14:10:22 mainul su: pam_succeed_if(su:auth): requirement "uid >= 1000" not met by user "root"
+Sep 11 14:10:29 mainul su: pam_unix(su:session): session opened for user root by mainulnishan(uid=1000)
+Sep 11 14:30:22 mainul su: pam_unix(su:session): session opened for user mainulnishan by mainulnishan(uid=0)
+Sep 11 14:52:02 mainul polkitd[899]: Registered Authentication Agent for unix-process:16647:353991 (system bus name :1.295 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 14:52:04 mainul polkitd[899]: Operator of unix-session:1 successfully authenticated as unix-user:mainulnishan to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.296 [systemctl isolate multi-user.target] (owned by unix-user:mainulnishan)
+Sep 11 14:52:05 mainul gdm-password]: pam_unix(gdm-password:session): session closed for user mainulnishan
+Sep 11 14:52:05 mainul polkitd[899]: Unregistered Authentication Agent for unix-process:16647:353991 (system bus name :1.295, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 14:52:05 mainul polkitd[899]: Unregistered Authentication Agent for unix-session:1 (system bus name :1.72, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 14:52:05 mainul su: pam_unix(su:session): session closed for user mainulnishan
+Sep 11 14:52:05 mainul su: pam_unix(su:session): session closed for user root
+Sep 11 14:52:11 mainul login: pam_unix(login:auth): check pass; user unknown
+Sep 11 14:52:11 mainul login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Sep 11 14:52:12 mainul login: FAILED LOGIN 1 FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Sep 11 14:52:19 mainul login: pam_unix(login:session): session opened for user mainulnishan by LOGIN(uid=0)
+Sep 11 14:52:19 mainul login: LOGIN ON tty1 BY mainulnishan
+Sep 11 14:56:15 mainul unix_chkpwd[17236]: password check failed for user (root)
+Sep 11 14:56:15 mainul su: pam_unix(su:auth): authentication failure; logname=mainulnishan uid=1000 euid=0 tty=tty1 ruser=mainulnishan rhost=  user=root
+Sep 11 14:56:15 mainul su: pam_succeed_if(su:auth): requirement "uid >= 1000" not met by user "root"
+Sep 11 14:56:23 mainul unix_chkpwd[17247]: password check failed for user (root)
+Sep 11 14:56:23 mainul su: pam_unix(su:auth): authentication failure; logname=mainulnishan uid=1000 euid=0 tty=tty1 ruser=mainulnishan rhost=  user=root
+Sep 11 14:56:23 mainul su: pam_succeed_if(su:auth): requirement "uid >= 1000" not met by user "root"
+Sep 11 14:56:31 mainul su: pam_unix(su:session): session opened for user root by mainulnishan(uid=1000)
+Sep 11 15:07:41 mainul su: pam_unix(su:session): session opened for user mainulnishan by mainulnishan(uid=0)
+Sep 11 15:07:51 mainul su: pam_unix(su:session): session opened for user root by mainulnishan(uid=1000)
+Sep 11 15:08:42 mainul su: pam_unix(su:session): session opened for user mainulnishan by mainulnishan(uid=0)
+Sep 11 15:20:15 mainul unix_chkpwd[18297]: password check failed for user (mainulnishan)
+Sep 11 15:20:15 mainul sudo: pam_unix(sudo:auth): authentication failure; logname=mainulnishan uid=1000 euid=0 tty=/dev/tty1 ruser=mainulnishan rhost=  user=mainulnishan
+Sep 11 15:20:19 mainul unix_chkpwd[18307]: password check failed for user (mainulnishan)
+Sep 11 15:20:23 mainul sudo: mainulnishan : TTY=tty1 ; PWD=/home/mainulnishan/git-projects/nb-testing ; USER=root ; COMMAND=/bin/yum install whatis
+Sep 11 15:20:23 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 11 15:20:24 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 11 15:40:43 mainul sudo: mainulnishan : TTY=tty1 ; PWD=/home/mainulnishan ; USER=root ; COMMAND=/bin/yum install openshift
+Sep 11 15:40:43 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 11 15:40:44 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 11 15:40:53 mainul sudo: mainulnishan : TTY=tty1 ; PWD=/home/mainulnishan ; USER=root ; COMMAND=/bin/yum install ansible
+Sep 11 15:40:53 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 11 15:41:02 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 11 15:41:16 mainul sudo: mainulnishan : TTY=tty1 ; PWD=/home/mainulnishan ; USER=root ; COMMAND=/bin/yum install epel-release
+Sep 11 15:41:16 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 11 15:41:16 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 11 15:41:26 mainul sudo: mainulnishan : TTY=tty1 ; PWD=/home/mainulnishan ; USER=root ; COMMAND=/bin/yum install ansible
+Sep 11 15:41:26 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 11 15:41:42 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 11 16:32:18 mainul su: pam_unix(su:session): session opened for user root by mainulnishan(uid=1000)
+Sep 11 16:33:20 mainul polkitd[899]: Registered Authentication Agent for unix-process:20542:961729 (system bus name :1.378 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 16:33:20 mainul polkitd[899]: Unregistered Authentication Agent for unix-process:20542:961729 (system bus name :1.378, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 16:34:10 mainul polkitd[899]: Registered Authentication Agent for unix-process:20584:966802 (system bus name :1.379 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 16:34:10 mainul polkitd[899]: Unregistered Authentication Agent for unix-process:20584:966802 (system bus name :1.379, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 16:34:21 mainul polkitd[899]: Registered Authentication Agent for unix-process:20598:967841 (system bus name :1.380 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 16:34:21 mainul polkitd[899]: Unregistered Authentication Agent for unix-process:20598:967841 (system bus name :1.380, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 16:35:28 mainul polkitd[899]: Registered Authentication Agent for unix-process:20818:974621 (system bus name :1.398 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 16:35:29 mainul polkitd[899]: Unregistered Authentication Agent for unix-process:20818:974621 (system bus name :1.398, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 16:45:34 mainul polkitd[899]: Registered Authentication Agent for unix-process:21242:1035163 (system bus name :1.420 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 16:45:34 mainul su: pam_unix(su:session): session closed for user root
+Sep 11 16:45:34 mainul su: pam_unix(su:session): session closed for user mainulnishan
+Sep 11 16:45:34 mainul su: pam_unix(su:session): session closed for user root
+Sep 11 16:45:34 mainul su: pam_unix(su:session): session closed for user root
+Sep 11 16:45:34 mainul su: pam_unix(su:session): session closed for user mainulnishan
+Sep 11 16:45:34 mainul polkitd[899]: Unregistered Authentication Agent for unix-process:21242:1035163 (system bus name :1.420, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 16:45:34 mainul login: pam_unix(login:session): session closed for user mainulnishan
+Sep 11 16:46:03 mainul polkitd[911]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 11 16:46:03 mainul polkitd[911]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 11 16:46:03 mainul polkitd[911]: Finished loading, compiling and executing 10 rules
+Sep 11 16:46:03 mainul polkitd[911]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 11 16:46:10 mainul sshd[1392]: Server listening on 0.0.0.0 port 22.
+Sep 11 16:46:10 mainul sshd[1392]: Server listening on :: port 22.
+Sep 11 16:46:14 mainul gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Sep 11 16:46:16 mainul polkitd[911]: Registered Authentication Agent for unix-session:c1 (system bus name :1.45 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 11 16:50:17 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=42)
+Sep 11 16:50:17 mainul pkexec[2689]: gdm: Executing command [USER=root] [TTY=unknown] [CWD=/var/lib/gdm] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 2250]
+Sep 11 16:50:37 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=42)
+Sep 11 16:50:37 mainul pkexec[2695]: gdm: Executing command [USER=root] [TTY=unknown] [CWD=/var/lib/gdm] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 7500]
+Sep 11 16:50:42 mainul gdm-password]: pam_unix(gdm-password:session): session opened for user mainulnishan by (uid=0)
+Sep 11 16:50:45 mainul polkitd[911]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.45, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 11 16:50:45 mainul gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Sep 11 16:50:48 mainul polkitd[911]: Registered Authentication Agent for unix-session:2 (system bus name :1.82 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 12 12:02:10 mainul gdm-password]: gkr-pam: unlocked login keyring
+Sep 12 12:08:04 mainul polkitd[1033]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 12 12:08:04 mainul polkitd[1033]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 12 12:08:04 mainul polkitd[1033]: Finished loading, compiling and executing 10 rules
+Sep 12 12:08:04 mainul polkitd[1033]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 12 12:08:14 mainul sshd[1627]: Server listening on 0.0.0.0 port 22.
+Sep 12 12:08:14 mainul sshd[1627]: Server listening on :: port 22.
+Sep 12 12:08:17 mainul gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Sep 12 12:08:20 mainul polkitd[1033]: Registered Authentication Agent for unix-session:c1 (system bus name :1.44 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 12 12:08:33 mainul gdm-password]: pam_unix(gdm-password:session): session opened for user mainulnishan by (uid=0)
+Sep 12 12:08:35 mainul gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Sep 12 12:08:36 mainul polkitd[1033]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.44, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 12 12:08:39 mainul polkitd[1033]: Registered Authentication Agent for unix-session:1 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 12 12:10:58 mainul sudo: mainulnishan : TTY=pts/0 ; PWD=/home/mainulnishan ; USER=root ; COMMAND=/bin/rpm --import https://packages.microsoft.com/keys/microsoft.asc
+Sep 12 12:10:58 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 12 12:11:01 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 12 12:11:13 mainul sudo: mainulnishan : TTY=pts/0 ; PWD=/home/mainulnishan ; USER=root ; COMMAND=/bin/sh -c echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo
+Sep 12 12:11:13 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 12 12:11:13 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 12 12:16:45 mainul sudo: mainulnishan : TTY=pts/0 ; PWD=/home/mainulnishan ; USER=root ; COMMAND=/bin/yum install code
+Sep 12 12:16:45 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 12 12:20:25 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 12 14:55:47 mainul gdm-password]: gkr-pam: unlocked login keyring
+Sep 12 15:01:07 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 12 15:01:07 mainul pkexec[8816]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 2250]
+Sep 12 15:02:12 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 12 15:02:12 mainul pkexec[8842]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 7500]
+Sep 12 15:10:14 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 12 15:10:14 mainul pkexec[9190]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 2250]
+Sep 12 15:10:16 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 12 15:10:16 mainul pkexec[9196]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 7500]
+Sep 12 15:14:17 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 12 15:14:17 mainul pkexec[9254]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 2250]
+Sep 12 15:14:19 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 12 15:14:19 mainul pkexec[9260]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 7500]
+Sep 12 15:18:25 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 12 15:18:25 mainul pkexec[9328]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 2250]
+Sep 12 15:18:27 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 12 15:18:27 mainul pkexec[9334]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 7500]
+Sep 12 15:22:37 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 12 15:22:37 mainul pkexec[9414]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 2250]
+Sep 12 15:22:38 mainul pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Sep 12 15:22:38 mainul pkexec[9420]: mainulnishan: Executing command [USER=root] [TTY=unknown] [CWD=/home/mainulnishan] [COMMAND=/usr/libexec/gsd-backlight-helper --set-brightness 7500]
+Sep 12 15:51:51 mainul polkitd[1020]: Loading rules from directory /etc/polkit-1/rules.d
+Sep 12 15:51:51 mainul polkitd[1020]: Loading rules from directory /usr/share/polkit-1/rules.d
+Sep 12 15:51:51 mainul polkitd[1020]: Finished loading, compiling and executing 10 rules
+Sep 12 15:51:51 mainul polkitd[1020]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Sep 12 15:51:59 mainul sshd[1505]: Server listening on 0.0.0.0 port 22.
+Sep 12 15:51:59 mainul sshd[1505]: Server listening on :: port 22.
+Sep 12 15:52:02 mainul gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Sep 12 15:52:04 mainul polkitd[1020]: Registered Authentication Agent for unix-session:c1 (system bus name :1.43 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 12 15:52:10 mainul gdm-password]: pam_unix(gdm-password:session): session opened for user mainulnishan by (uid=0)
+Sep 12 15:52:12 mainul gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Sep 12 15:52:12 mainul polkitd[1020]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.43, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Sep 12 15:52:15 mainul polkitd[1020]: Registered Authentication Agent for unix-session:1 (system bus name :1.74 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep 12 16:02:40 mainul sudo: mainulnishan : TTY=pts/0 ; PWD=/home/mainulnishan ; USER=root ; COMMAND=/bin/rm -rf git-projects/
+Sep 12 16:02:40 mainul sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep 12 16:02:40 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 12 16:07:56 mainul sudo: mainulnishan : TTY=pts/1 ; PWD=/home/mainulnishan/gitrepo ; USER=root ; COMMAND=/bin/cat /var/log/messages
+Sep 12 16:07:56 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+Sep 12 16:07:56 mainul sudo: pam_unix(sudo:session): session closed for user root
+Sep 12 16:09:32 mainul sudo: mainulnishan : TTY=pts/1 ; PWD=/home/mainulnishan/gitrepo ; USER=root ; COMMAND=/bin/cat /var/log/secure
+Sep 12 16:09:32 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
