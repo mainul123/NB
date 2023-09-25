@@ -477,3 +477,4 @@ Sep 12 16:07:56 mainul sudo: pam_unix(sudo:session): session opened for user roo
 Sep 12 16:07:56 mainul sudo: pam_unix(sudo:session): session closed for user root
 Sep 12 16:09:32 mainul sudo: mainulnishan : TTY=pts/1 ; PWD=/home/mainulnishan/gitrepo ; USER=root ; COMMAND=/bin/cat /var/log/secure
 Sep 12 16:09:32 mainul sudo: pam_unix(sudo:session): session opened for user root by mainulnishan(uid=0)
+this is some other stuff
